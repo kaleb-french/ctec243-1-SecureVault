@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IntelliJTemplate.iml" filepath="$PROJECT_DIR$/IntelliJTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ctec243-1-SecureVault.iml" filepath="$PROJECT_DIR$/ctec243-1-SecureVault.iml" />
     </modules>
   </component>
 </project>
