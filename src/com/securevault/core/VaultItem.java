@@ -1,11 +1,15 @@
 package com.securevault.core;
+import com.securevault.exceptions.InvalidValueException;
 
 public class VaultItem {
     //Attributes
     private String itemName;
     private double itemValue;
     //Methods
-    public VaultItem(String name, double value){
+    public VaultItem(String name, double value) throws InvalidValueException{
+		if(value == 0){
+			throw new InvalidValueException("Value cannot be Zero!");
+		}
         itemName = name;
         itemValue = value;
     }
