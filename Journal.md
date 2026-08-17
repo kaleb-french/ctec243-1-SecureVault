@@ -12,3 +12,6 @@ You could probably do the same by creating setters inside the superclass and cal
 Phase 3-
 It wouldn't compile without either specifing that it throws the exception or handling in the subclass due to the super call in the constuctor. 
 It would probably be better to be handled before the object creation, like upon input from user to make it smoother.
+
+Phase 4-
+The selection sort algorithm has a bigO value of O(n2). because of this it is exponentially longer as items are added for a doubling of 10-20 its rougly 190 comparisons to complete. 
